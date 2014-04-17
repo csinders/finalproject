@@ -23,8 +23,8 @@ public class DeathbyTimer : MonoBehaviour {
 	IEnumerator DyingSequence(){
 		GetComponent<GrayscaleEffect>().enabled = true; 
 		while( GetComponent<GrayscaleEffect>().rampOffset > -0.7){ 
-			GetComponent<GrayscaleEffect>().rampOffset -= 0.00005f;
-			yield return new WaitForSeconds(0.01f);
+			GetComponent<GrayscaleEffect>().rampOffset -= 0.0001f;
+			yield return new WaitForSeconds(1f);
 		}
 
 	
