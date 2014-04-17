@@ -8,7 +8,7 @@
 class Blur extends PostEffectsBase {
 
 	@Range(0, 2)
-	public var downsample : int = 1;
+	public var  : int = 1;
 
 	public enum BlurType {
 		StandardGauss = 0,
