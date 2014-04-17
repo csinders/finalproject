@@ -3,7 +3,7 @@ using System.Collections;
 
 public class DeathbyTimer : MonoBehaviour {
 	public float ThisIsTheEnd = 5.0f;
-	public float blurEffect = 0.01f;
+	// public int blurEffect = 1;
 
 	// Use this for initialization
 	void Start () {
@@ -21,17 +21,13 @@ public class DeathbyTimer : MonoBehaviour {
 	}
 
 	IEnumerator DyingSequence(){
-		while( GetComponent<Vignetting>().intensity < 6){
-			GetComponent<Vignetting>().intensity += 0.001f;
+		GetComponent<GrayscaleEffect>().enabled = true; 
+		while( GetComponent<GrayscaleEffect>().rampOffset > -0.7){ 
+			GetComponent<GrayscaleEffect>().rampOffset -= 0.00005f;
 			yield return new WaitForSeconds(0.01f);
 		}
 
-		// while( GetComponent<Blur>().blurIterations < 6){
-		// 	GetComponent<Blur>().blurIterations += blurEffect;
-		// 	yield return new WaitForSeconds(0.01f);
-		// }
-		
-
+	
 		Debug.Log("Something else");
 
 		
