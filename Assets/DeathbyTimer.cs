@@ -28,7 +28,7 @@ public class DeathbyTimer : MonoBehaviour {
 		}
 
 	
-		Debug.Log("Something else");
+		Application.LoadLevel("firstScene");
 
 		
 	}

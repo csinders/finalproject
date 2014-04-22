@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 449b48f7eb5d87a4baaa5fb73f875a59
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 15
   fileIDToRecycleName:
     100000: Bip001 R Finger1
     100002: Bip001 R Finger21
@@ -120,9 +120,13 @@ ModelImporter:
     400138: Bip001 Pelvis
     400140: Bip001
     2300000: wrench
+    2300002: construction_worker
     3300000: wrench
+    3300002: construction_worker
     4300000: construction_worker
     4300002: wrench
+    7400000: Take 001
+    7400006: idle0
     7400012: idle
     7400014: run
     7400016: walk
@@ -269,7 +273,7 @@ ModelImporter:
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     human: []
@@ -283,6 +287,5 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 1
-  additionalBone: 1
+  animationType: 0
   userData: 
