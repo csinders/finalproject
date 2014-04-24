@@ -261,8 +261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color_alpha: 0
   color_fade: 1
-  interval: 1
-  timer: 0
+  startTime: 2
 --- !u!95 &679825316
 Animator:
   serializedVersion: 2
@@ -297,7 +296,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &679825318
@@ -342,8 +341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color_alpha: 0
   color_fade: 1
-  interval: 1
-  timer: 0
+  startTime: 3
 --- !u!95 &814696843
 Animator:
   serializedVersion: 2
@@ -378,7 +376,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &814696845
@@ -454,7 +452,7 @@ Transform:
   m_GameObject: {fileID: 1287888475}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.43235826, y: 3.19009018, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 10, y: 10, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &1610584420
@@ -586,7 +584,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!114 &1830558229
@@ -602,8 +600,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   color_alpha: 0
   color_fade: 1
-  interval: 1
-  timer: 0
+  startTime: 4
 --- !u!82 &1830558230
 AudioSource:
   m_ObjectHideFlags: 0
