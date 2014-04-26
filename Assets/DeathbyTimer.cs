@@ -7,7 +7,7 @@ public class DeathbyTimer : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		ThisIsTheEnd += Time.time;
 	}
 	
 	// Update is called once per frame
